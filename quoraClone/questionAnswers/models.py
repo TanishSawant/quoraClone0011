@@ -11,3 +11,4 @@ class Questions(models.Model):
 class Answers(models.Model):
     detailed_answer = models.TextField(blank= False, null=False)
     likes = models.IntegerField(default=0)
+    is_satisfied = models.BooleanField(default=False)
