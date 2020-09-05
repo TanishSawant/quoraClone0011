@@ -56,7 +56,7 @@ ROOT_URLCONF = 'quoraClone.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['C:\\Users\\tanis\\PycharmProjects\\quora\\quoraClone\\quoraClone\\templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
