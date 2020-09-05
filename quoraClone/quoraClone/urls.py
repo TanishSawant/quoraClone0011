@@ -15,9 +15,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from questionAnswers.views import questionListView
+#from questionAnswers.views import questionDetailedView, questionListView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('questions/<int:q_id>', questionDetailedView),
     path('questions/', questionListView)
 ]
